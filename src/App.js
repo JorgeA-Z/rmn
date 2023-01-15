@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
-function App() {
+import Boton from './Boton';
+  function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className='App-header'>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <div className='App-Grid-Buttons'>
+          <Boton text="Sing-In" className="Button-standar" id="1"/>
+          <Boton text="Log-In" className="Button-second" id="2"/>
+      </div>
+      <div className='App-pie'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque fermentum justo dignissim scelerisque.
+      </div>
     </div>
+
   );
 }
 

@@ -1,0 +1,61 @@
+.Button-standar
+{
+    display:inline-block;
+    padding:0.35em 1.2em;
+
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    height: 30px;
+    width: 80px;
+
+
+    text-align:center;
+    transition: all 0.2s;
+
+
+    color:#FFFFFF;
+    background-color: #7A60A9;
+    border-color: #7A60A9;
+}
+
+@media all and (max-width:30em){
+    .Button-standar
+    {
+        display:block;
+        margin:0.4em auto;
+    }
+}
+
+.Button-second
+{
+    display:inline-block;
+    padding:0.35em 1.2em;
+
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    
+    height: 30px;
+    width: 80px;
+
+    text-align:center;
+    transition: all 0.2s;
+
+    background-color: #D6C8E1;
+    border-color: #7A60A9;
+    color:white;
+}
+@media all and (max-width:30em){
+    .Button-second
+    {
+        display:block;
+        margin:0.4em auto;
+    }
+}
